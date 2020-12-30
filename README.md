@@ -14,4 +14,4 @@ Today I Learned
 - [JSON.stringify, JSON.parse](https://github.com/epark-grace/TIL/blob/main/javascript/JSON.stringify%2C%20JSON.parse.md)
 
 ## Code quality
-- [자바에서의 인스턴스 변수와 응집도]()
+- [자바에서의 인스턴스 변수와 응집도](https://github.com/epark-grace/TIL/blob/main/code%20quality/%EC%9E%90%EB%B0%94%EC%97%90%EC%84%9C%EC%9D%98%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EB%B3%80%EC%88%98%EC%99%80%20%EC%9D%91%EC%A7%91%EB%8F%84.md)
