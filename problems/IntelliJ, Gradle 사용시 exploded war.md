@@ -12,12 +12,12 @@ IntelliJ, Gradle 프로젝트에서 톰캣으로 exploded war를 배포하는 �
 Settings - Build, Execution, Deployment - Build Tools - Gradle - Build and run - default인 Gradle 대신 intelliJ 선택
 
 ### 해결방법2: gradle task 추가
-  1. build.gradle 수정
-      ```groovy
-      task explodedWar(type: Copy) {
-        into "${buildDir}/libs/exploded-war"
-        with war
-      }  
-      ```
-  2. Tomcat Edit Configurations - Deployment - Deploy at the server startup - External Source로 빌드된 exploded war 선택
-  3. Tomcat Edit Configurations - Before launch - Run Gradle Task 추가 - task: explodedWar
+1. build.gradle에 task 추가
+ ```groovy
+ task explodedWar(type: Copy) {
+   into "${buildDir}/libs/exploded-war"
+   with war
+ }  
+ ```
+2. Tomcat Edit Configurations - Deployment - Deploy at the server startup - External Source로 빌드된 exploded war 추가
+3. Tomcat Edit Configurations - Before launch - Run Gradle Task 추가 - task: explodedWar
