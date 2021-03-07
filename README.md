@@ -15,5 +15,8 @@ Today I Learned
 ## Javascript
 - [JSON.stringify, JSON.parse](https://github.com/epark-grace/TIL/blob/main/javascript/JSON.stringify%2C%20JSON.parse.md)
 
+## Test
+- [@BeforeAll 메소드 내에서 스프링 빈 사용하기](https://github.com/epark-grace/TIL/blob/ce70887734c69ebe9694cb8504529717303d274d/test/BeforeAll%20%EB%A9%94%EC%86%8C%EB%93%9C%20%EB%82%B4%EC%97%90%EC%84%9C%20%EC%8A%A4%ED%94%84%EB%A7%81%20%EB%B9%88%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)
+
 ## Code quality
 - [자바에서의 인스턴스 변수와 응집도](https://github.com/epark-grace/TIL/blob/main/code%20quality/%EC%9E%90%EB%B0%94%EC%97%90%EC%84%9C%EC%9D%98%20%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EB%B3%80%EC%88%98%EC%99%80%20%EC%9D%91%EC%A7%91%EB%8F%84.md)
